@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": 1,
+    "name": "Beirut Community Shelter A",
+    "governorate": "Beirut",
+    "area": "Beirut",
+    "address": "Central Beirut - Demo Location",
+    "capacity": 200,
+    "occupied": 120,
+    "status": "available",
+    "facilities": ["Drinking Water", "Electricity", "Restrooms", "First Aid"],
+    "contact": "Demo - Not Available"
+  },
+  {
+    "id": 2,
+    "name": "Mount Lebanon Relief Center B",
+    "governorate": "Mount Lebanon",
+    "area": "Baabda",
+    "address": "Baabda - Demo Location",
+    "capacity": 150,
+    "occupied": 140,
+    "status": "limited",
+    "facilities": ["Drinking Water", "Restrooms", "Food"],
+    "contact": "Demo - Not Available"
+  },
+  {
+    "id": 3,
+    "name": "South Lebanon Shelter C",
+    "governorate": "South",
+    "area": "Sidon",
+    "address": "Sidon - Demo Location",
+    "capacity": 100,
+    "occupied": 100,
+    "status": "full",
+    "facilities": ["Drinking Water", "Electricity", "First Aid"],
+    "contact": "Demo - Not Available"
+  },
+  {
+    "id": 4,
+    "name": "Bekaa Emergency Shelter D",
+    "governorate": "Bekaa",
+    "area": "Zahle",
+    "address": "Zahle - Demo Location",
+    "capacity": 180,
+    "occupied": 70,
+    "status": "available",
+    "facilities": ["Food", "Drinking Water", "Restrooms", "First Aid"],
+    "contact": "Demo - Not Available"
+  },
+  {
+    "id": 5,
+    "name": "North Lebanon Relief Center E",
+    "governorate": "North",
+    "area": "Tripoli",
+    "address": "Tripoli - Demo Location",
+    "capacity": 250,
+    "occupied": 230,
+    "status": "limited",
+    "facilities": ["Electricity", "Food", "Drinking Water"],
+    "contact": "Demo - Not Available"
+  },
+  {
+    "id": 6,
+    "name": "South Lebanon Community Shelter F",
+    "governorate": "South",
+    "area": "Tyre",
+    "address": "Tyre - Demo Location",
+    "capacity": 120,
+    "occupied": 45,
+    "status": "available",
+    "facilities": ["Drinking Water", "Food", "Restrooms"],
+    "contact": "Demo - Not Available"
+  }
+]

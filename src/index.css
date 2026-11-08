@@ -1,0 +1,23 @@
+
+@import "tailwindcss";
+
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-content {
+  animation: ticker-scroll 30s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-content {
+    animation: none;
+  }
+}

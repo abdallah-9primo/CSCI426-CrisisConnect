@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": 1,
+    "type": "demo",
+    "message": "DEMO MODE - No live emergency alerts"
+  },
+  {
+    "id": 2,
+    "type": "safety",
+    "message": "For immediate danger, contact official emergency services"
+  },
+  {
+    "id": 3,
+    "type": "contact",
+    "message": "Lebanese Red Cross Emergency: 140"
+  },
+  {
+    "id": 4,
+    "type": "contact",
+    "message": "Lebanese Civil Defense: 125"
+  },
+  {
+    "id": 5,
+    "type": "contact",
+    "message": "Internal Security Forces: 112"
+  },
+  {
+    "id": 6,
+    "type": "safety",
+    "message": "Follow official emergency instructions and verified safety updates"
+  }
+]
