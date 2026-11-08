@@ -1,16 +1,138 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CrisisConnect 🇱🇧
+### National Emergency & Relief Platform
 
-Currently, two official plugins are available:
+CrisisConnect is a responsive web application developed as a university project for CSCI426 – Advanced Web Programming.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform aims to organize essential emergency information, shelter demonstrations, and safety resources for communities in Lebanon.
 
-## React Compiler
+> **Disclaimer:** CrisisConnect is an educational demonstration. Shelter information and availability are fictional. This website is not an official emergency response service.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive design for desktop, tablet, and mobile
+- Five pages with React Router
+- Emergency hotline directory
+- Shelter search and governorate filtering
+- Shelter availability indicators
+- Interactive shelter details modal
+- Safety and preparedness information
+- Demonstration contact form
+- Safety information ticker
+- Automatic scroll-to-top on page navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+
+1. **Home** – Platform overview, emergency contacts, and services
+2. **About Us** – Project mission and objectives
+3. **Services** – Safety and preparedness resources
+4. **Emergency Directory** – Emergency hotlines and demo contact form
+5. **Shelters** – Interactive shelter directory with search, filters, and details
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript (JSX)
+- React Router DOM
+- Tailwind CSS
+- Lucide React
+- HTML5 and CSS3
+- Git and GitHub
+- Netlify
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abdallah-9primo/CSCI426-CrisisConnect.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd CSCI426-CrisisConnect
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal.
+
+## Deployment
+
+The project is deployed on Netlify.
+
+Live website:
+https://lambent-pithivier-1eee6f.netlify.app/
+
+GitHub repository:
+https://github.com/abdallah-9primo/CSCI426-CrisisConnect
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── BreakingNewsTicker.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── ScrollToTop.jsx
+├── data/
+│   ├── newsData.json
+│   └── sheltersData.json
+├── pages/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Home.jsx
+│   ├── Services.jsx
+│   └── Shelters.jsx
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Dynamic Functionality
+
+The Shelters page demonstrates React state management through:
+
+- Live text search
+- Governorate filters
+- Dynamic rendering with `map()`
+- Conditional rendering
+- Shelter detail modals
+- Capacity and occupancy calculations
+
+The contact form demonstrates basic form handling and validation.
+
+No form submissions are transmitted or stored.
+
+## Future Improvements
+
+- Integration with verified emergency information providers
+- Multilingual support
+- Accessibility enhancements
+- Optional AI assistant
+- Real-time shelter updates, subject to verified data availability
+
+## Academic Information
+
+Course: CSCI426 – Advanced Web Programming
+
+Project: Phase 1
+
+Project Name: CrisisConnect
+
+Purpose: Educational and academic demonstration.
