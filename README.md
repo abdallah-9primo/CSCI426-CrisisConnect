@@ -136,3 +136,21 @@ Project: Phase 1
 Project Name: CrisisConnect
 
 Purpose: Educational and academic demonstration.
+
+
+## Application Screenshots
+
+### 1. Home Page
+![CrisisConnect Home Page](screenshots/Home.png)
+
+### 2. About Us
+![About Us Page](screenshots/About.png)
+
+### 3. Services & Features
+![Services Page](screenshots/Services.png)
+
+### 4. Emergency Directory & Contact
+![Contact Page](screenshots/Contact.png)
+
+### 5. Shelter & Relief Directory
+![Shelters Page](screenshots/Shelters.png)
