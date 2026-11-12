@@ -32,8 +32,8 @@ The platform aims to organize essential emergency information, shelter demonstra
 ## Technologies Used
 
 - React.js
-- Vite
-- JavaScript (JSX)
+- Create React App (react-scripts)
+- JavaScript
 - React Router DOM
 - Tailwind CSS
 - Lucide React
@@ -64,7 +64,7 @@ npm install
 Start the development server:
 
 ```bash
-npm run dev
+npm start
 ```
 
 Open the local URL displayed in the terminal.
@@ -85,23 +85,22 @@ https://github.com/abdallah-9primo/CSCI426-CrisisConnect
 src/
 ├── assets/
 ├── components/
-│   ├── BreakingNewsTicker.jsx
-│   ├── Footer.jsx
-│   ├── Navbar.jsx
-│   └── ScrollToTop.jsx
+│   ├── BreakingNewsTicker.js
+│   ├── Footer.js
+│   ├── Navbar.js
+│   └── ScrollToTop.js
 ├── data/
 │   ├── newsData.json
 │   └── sheltersData.json
 ├── pages/
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── Home.jsx
-│   ├── Services.jsx
-│   └── Shelters.jsx
-├── App.css
-├── App.jsx
+│   ├── About.js
+│   ├── Contact.js
+│   ├── Home.js
+│   ├── Services.js
+│   └── Shelters.js
+├── App.js
 ├── index.css
-└── main.jsx
+└── index.js
 ```
 
 ## Dynamic Functionality
